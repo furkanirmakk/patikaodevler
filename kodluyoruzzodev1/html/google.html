@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google</title>
+
+    <style>
+        .list {
+            display:inline-flex;
+            text-align: center;
+        }
+        .container {
+            display: flex; /* veya display: grid; */
+            justify-content: space-between; /* veya grid-template-columns: repeat(3, 1fr); */
+        }
+
+        .container > div {
+            flex: 0 0 31.5%; /* veya grid-column: span 1; */
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center; margin: top 100px; ">
+        <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="">
+    </div>
+    <div style="text-align: center; background-color:#EEEEEE ;">
+        <span>
+            <p>Searh the web using Google!</p>
+        </span>
+        <span><input style="width: 300px;" type="text" id="arama" name="q"></span><br>
+        <span>
+            <button style="width: 75px;">fgf</button>
+            <button style="width: 75px;">sxzdx</button>
+        </span>
+    </div>
+    <div style="text-align: center;" class="container">
+        <div class="list" style="background-color: #7EE5DA;">
+            <ul>
+                <li>Special Searches</li>
+                <li>Standfor Search</li>
+                <li>Linux Search</li>
+            </ul>
+        </div>
+        <div class="list" style="background-color: #70CCC2;">
+            <ul>
+                <li>Help</li>
+                <li>About Google!</li>
+                <li>Company İnfo </li>
+                <li>Google! Logos</li>
+            </ul>
+        </div>
+        <div class="list" style="background-color: #62B3AA;">
+            <ul>
+                <li>Get Google!</li>
+                <li>updates monthly:</li>
+                <li><input style="width: 300px;" type="text" id="arama" name="q"></li>
+                <li> <span>
+                        <button style="width: 75px;">fgf</button>
+                        <p>archive</p>
+                    </span></li>
+            </ul>
+        </div>
+    </div>
+
+    <p style="text-align: center;">Copyright 1998 Google Inc.</p>
+
+</body>
+
+</html>

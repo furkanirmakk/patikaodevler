@@ -1,0 +1,41 @@
+
+Insertion Sort adımları:
+
+Verilen dizi: [22, 27, 16, 2, 18, 6]
+
+İlk adımda, dizinin ikinci elemanı olan 27'yi seçeriz ve bu elemanı diğerlerinden ayırırız. 
+27'yi, daha küçük bir eleman (22) ile karşılaşıncaya kadar dizinin solundaki uygun konuma yerleştiririz. 
+Dizi şu şekilde olur: [22, 27, 16, 2, 18, 6].
+
+İkinci adımda, dizinin üçüncü elemanı olan 16'yı seçeriz. Bu elemanı, daha küçük bir eleman (22) ile 
+karşılaşıncaya kadar dizinin solundaki uygun konuma yerleştiririz. Dizi şu şekilde olur: [16, 22, 27, 2, 18, 6].
+
+Üçüncü adımda, dizinin dördüncü elemanı olan 2'yi seçeriz. Bu elemanı, daha küçük bir eleman (16) ile 
+karşılaşıncaya kadar dizinin solundaki uygun konuma yerleştiririz. Dizi şu şekilde olur: [2, 16, 22, 27, 18, 6].
+
+Dördüncü adımda, dizinin beşinci elemanı olan 18'i seçeriz. Bu elemanı, daha küçük bir eleman (16) ile 
+karşılaşıncaya kadar dizinin solundaki uygun konuma yerleştiririz. Dizi şu şekilde olur: [2, 16, 18, 22, 27, 6].
+
+Beşinci adımda, dizinin altıncı elemanı olan 6'yı seçeriz. Bu elemanı, daha küçük bir eleman (2) ile 
+karşılaşıncaya kadar dizinin solundaki uygun konuma yerleştiririz. Dizi şu şekilde olur: [2, 6, 16, 18, 22, 27].
+
+Dizi sıralandıktan sonra 18 sayısı, Average case'e girer. Çünkü aradığımız sayının ortada olması, 
+genel olarak arama işleminin ortalama durumu olarak kabul edilir.
+
+Insertion Sort'un Big-O gösterimi: O(n^2)
+
+Selection Sort adımları (ilk 4 adım):
+
+Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+İlk adımda, dizinin en küçük elemanını buluruz. Bu 2'dir ve dizinin ilk elemanı ile yer değiştiririz. Dizi şu 
+şekilde olur: [2, 3, 5, 8, 7, 9, 4, 15, 6].
+
+İkinci adımda, dizinin ikinci en küçük elemanını buluruz. Bu 3'tür ve dizinin ikinci elemanı ile yer değiştiririz. 
+Dizi şu şekilde olur: [2, 3, 5, 8, 7, 9, 4, 15, 6].
+
+Üçüncü adımda, dizinin üçüncü en küçük elemanını buluruz. Bu 4'tür ve dizinin üçüncü elemanı ile yer değiştiririz. 
+Dizi şu şekilde olur: [2, 3, 4, 8, 7, 9, 5, 15, 6].
+
+Dördüncü adımda, dizinin dördüncü en küçük elemanını buluruz. Bu 5'tür ve dizinin dördüncü elemanı ile yer değiştiririz. 
+Dizi şu şekilde olur: [2, 3, 4, 5, 7, 9, 8, 15, 6].

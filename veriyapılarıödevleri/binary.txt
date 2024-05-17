@@ -1,0 +1,51 @@
+Binary Search Tree (BST) oluşturma adımları:
+
+Root belirleme:
+
+İlk eleman root olur: Root = 7.
+5 ekleme:
+
+5, 7'den küçüktür, bu yüzden 5, 7'nin soluna eklenir.
+Root'un solu = 5
+1 ekleme:
+
+1, 7'den küçüktür, 5'ten de küçüktür, bu yüzden 1, 5'in soluna eklenir.
+5'in solu = 1
+8 ekleme:
+
+8, 7'den büyüktür, bu yüzden 8, 7'nin sağına eklenir.
+Root'un sağı = 8
+3 ekleme:
+
+3, 7'den küçüktür, 5'ten de küçüktür, ancak 1'den büyüktür. Bu yüzden 3, 1'in sağına eklenir.
+1'in sağı = 3
+6 ekleme:
+
+6, 7'den küçüktür, 5'ten büyüktür, bu yüzden 6, 5'in sağına eklenir.
+5'in sağı = 6
+0 ekleme:
+
+0, 7'den küçüktür, 5'ten küçüktür, 1'den de küçüktür, bu yüzden 0, 1'in soluna eklenir.
+1'in solu = 0
+9 ekleme:
+
+9, 7'den büyüktür, 8'den de büyüktür, bu yüzden 9, 8'in sağına eklenir.
+8'in sağı = 9
+4 ekleme:
+
+4, 7'den küçüktür, 5'ten küçüktür, 1'den büyüktür, 3'ten de büyüktür, bu yüzden 4, 3'ün sağına eklenir.
+3'ün sağı = 4
+2 ekleme:
+
+2, 7'den küçüktür, 5'ten küçüktür, 1'den büyüktür, 3'ten küçüktür, bu yüzden 2, 3'ün soluna eklenir.
+3'ün solu = 2
+
+        7
+       / \
+      5   8
+     / \   \
+    1   6   9
+   / \
+  0   3
+     / \
+    2   4

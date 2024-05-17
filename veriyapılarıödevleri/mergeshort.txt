@@ -1,0 +1,28 @@
+
+Merge Sort adımları:
+
+Verilen dizi: [16, 21, 11, 8, 12, 22]
+
+Bölme (Divide):
+
+Dizi, orta noktasından ikiye bölünür: [16, 21, 11] ve [8, 12, 22].
+Bölme (Divide):
+
+Her alt dizi, sırasıyla ikiye bölünür:
+[16], [21, 11], [8] ve [12, 22].
+Birleştirme (Merge):
+
+Her alt dizi, sırasıyla birleştirilir:
+[16], [11, 21], [8] ve [12, 22] -> [11, 16, 21] ve [8, 12, 22].
+Birleştirme (Merge):
+
+Son olarak, iki sıralı alt diziyi birleştiririz:
+[8, 11, 12, 16, 21, 22].
+Dizi sıralandıktan sonra: [8, 11, 12, 16, 21, 22]
+
+Merge Sort'un Big-O gösterimi: O(n log n)
+
+Merge Sort, genellikle O(n log n) zaman karmaşıklığına sahiptir. Bu, 
+dizi boyutu n büyüdükçe, işlem süresinin logaritmik olarak büyüyeceği 
+anlamına gelir. Bu nedenle, Merge Sort, büyük veri kümelerini etkili bir
+ şekilde sıralamak için kullanılır.
